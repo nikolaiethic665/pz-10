@@ -1,0 +1,6 @@
+body { margin: 0; font-family: Arial, sans-serif; color: #222; }
+.page { max-width: 900px; margin: 0 auto; padding: 48px 24px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #aaa; padding: 12px; text-align: left; }
+caption { margin-bottom: 12px; font-weight: 700; }
+thead { background: #ececec; }
