@@ -9,7 +9,19 @@
 <body>
   <main class="page">
     <h1>Расписание компьютерной лаборатории</h1>
-    <!-- Создайте здесь семантическую таблицу по заданию -->
+    <table>
+      <caption>Занятость лаборатории на учебной неделе</caption>
+      <thead>
+        <tr><th scope="col">День</th><th scope="col">09:00–10:30</th><th scope="col">10:40–12:10</th><th scope="col">12:40–14:10</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Понедельник</th><td>HTML</td><td>Свободно</td><td>CSS</td></tr>
+        <tr><th scope="row">Вторник</th><td colspan="2">Техническое обслуживание</td><td>JavaScript</td></tr>
+        <tr><th scope="row">Среда</th><td>Свободно</td><td>Git</td><td>Свободно</td></tr>
+        <tr><th scope="row">Четверг</th><td>DOM</td><td>Формы</td><td>Свободно</td></tr>
+      </tbody>
+      <tfoot><tr><th scope="row" colspan="3">Количество свободных окон</th><td>4</td></tr></tfoot>
+    </table>
   </main>
 </body>
 </html>
